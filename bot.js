@@ -1,7 +1,7 @@
 
 const Web3 = require('web3');
-const web3 = new Web3('https://rinkeby.infura.io/v3/5eef2057bd184d6c93678a2f648d6ed4');
-const account = web3.eth.accounts.privateKeyToAccount("f7314a22b29c944acb0c4a232b53a9fc82e396dab44f9d2a5ba03a0710f7ea03");
+const web3 = new Web3('https://rinkeby.infura.io/v3/5eef2057bd16c93678a2f648d6ed4');
+const account = web3.eth.accounts.privateKeyToAccount("f7314a22b29c9cb0c4a232b53a9fc82e396dab44f9d2a5ba03a0710f7ea03");
 
 const ABI = [
 	{
